@@ -1,1 +1,15 @@
-// Your styles go here
+.container {
+    background: red;
+    padding: 20px;
+    margin: 10px;
+    height: 50vh;
+
+    display: grid;
+    grid: auto-flow auto / repeat(4, minmax(100px, auto));
+   
+    justify-items: stretch;
+    align-items: stretch;
+
+    justify-content: center;
+    align-content: center;
+}
