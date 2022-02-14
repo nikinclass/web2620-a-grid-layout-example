@@ -1,3 +1,11 @@
+.container .item {
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
 .container {
     background: red;
     padding: 20px;
@@ -10,6 +18,11 @@
     justify-items: stretch;
     align-items: stretch;
 
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.item:nth-child(7){
+    justify-self: center;
+    align-self: start;
 }
